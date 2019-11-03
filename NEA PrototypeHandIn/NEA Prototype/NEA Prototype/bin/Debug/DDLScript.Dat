@@ -1,0 +1,47 @@
+ˆCREATE TABLE [dbo].[Class] (
+            [ClassName]   VARCHAR (4)  NOT NULL,
+            [Invigilator] VARCHAR (30) NOT NULL,
+            [Trainer]     VARCHAR (30) NOT NULL,
+            [AdminID]     INT          NULL,
+            PRIMARY KEY CLUSTERED ([ClassName] ASC),
+            CONSTRAINT [FK_CLass_Admin] FOREIGN KEY ([AdminID]) REFERENCES [dbo].[Admin] ([AdminID])
+        );¤CREATE TABLE [dbo].[Student] (
+            [BSCID]           VARCHAR (12) NOT NULL,
+            [FirstName]       VARCHAR (30) NOT NULL,
+            [Surname]         VARCHAR (30) NOT NULL,
+            [Username]        VARCHAR (30) NOT NULL,
+            [Password]        VARCHAR (30) NOT NULL,
+            [RegDate]         VARCHAR (10) NOT NULL,
+            [CompDate]        VARCHAR (10) NOT NULL,
+            [Qualification]   VARCHAR (15) NULL,
+            [CertificateDate] VARCHAR (10) NOT NULL,
+            [ClassName]       VARCHAR (4)  NULL,
+            [ResultP]         VARCHAR (4)  NULL,
+            [ResultS]         VARCHAR (4)  NULL,
+            [ResultW]         VARCHAR (4)  NULL,
+            [ResultI]         VARCHAR (4)  NULL,
+            PRIMARY KEY CLUSTERED ([BSCID] ASC),
+            CONSTRAINT [FK_Student_Class] FOREIGN KEY ([ClassName]) REFERENCES [dbo].[Class] ([ClassName])
+        );ÇCREATE TABLE [dbo].[Test] (
+    [BSCID]               VARCHAR (12) NOT NULL,
+    [UnitCode]            VARCHAR (4)  NOT NULL,
+    [TestPaper]           VARCHAR (6)  NOT NULL,
+    [Result]              VARCHAR (6)  NULL,
+    [Attempts]            INT          NULL,
+    [ResultofAttempt1]    DECIMAL (8)  NULL,
+    [ResultofAttempt2]    DECIMAL (8)  NULL,
+    [ResultofAttempt3]    DECIMAL (8)  NULL,
+    [TestDate]            VARCHAR (10) NOT NULL,
+    [StartDate]           VARCHAR (10) NOT NULL,
+    [TimeSinceLastResult] VARCHAR (25) NULL,
+    [ClassName]           VARCHAR (4)  NOT NULL,
+    PRIMARY KEY CLUSTERED ([BSCID] ASC, [UnitCode] ASC, [TestPaper] ASC),
+    CONSTRAINT [FK_Test_Student] FOREIGN KEY ([BSCID]) REFERENCES [dbo].[Student] ([BSCID]),
+    CONSTRAINT [FK_Test_Unit] FOREIGN KEY ([UnitCode]) REFERENCES [dbo].[Unit] ([UnitCode]),
+    CONSTRAINT [FK_Test_Class] FOREIGN KEY ([ClassName]) REFERENCES [dbo].[Class] ([ClassName])
+);ñCREATE TABLE [dbo].[Unit] (
+            [UnitCode]    VARCHAR (4)  NOT NULL,
+            [Description] VARCHAR (20) NOT NULL,
+            [Syllabus]    VARCHAR (4)  NOT NULL,
+            PRIMARY KEY CLUSTERED ([UnitCode] ASC)
+        );

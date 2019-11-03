@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2398DF40-945F-4143-A7C7-CC9DBA3EC9CC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>NEA_Prototype.My.MyApplication</StartupObject>
+    <RootNamespace>NEA_Prototype</RootNamespace>
+    <AssemblyName>NEA Prototype</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>NEA Prototype.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>NEA Prototype.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddData.Designer.vb">
+      <DependentUpon>AddData.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddData.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin View.Designer.vb">
+      <DependentUpon>Admin View.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin View.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PopUP.Designer.vb">
+      <DependentUpon>PopUP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PopUP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProgressClass.Designer.vb">
+      <DependentUpon>ProgressClass.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ProgressClass.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProgressCourse.Designer.vb">
+      <DependentUpon>ProgressCourse.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ProgressCourse.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProgressStudent.Designer.vb">
+      <DependentUpon>ProgressStudent.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ProgressStudent.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportClass.Designer.vb">
+      <DependentUpon>ReportClass.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReportClass.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportCourse.Designer.vb">
+      <DependentUpon>ReportCourse.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReportCourse.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentLogin.Designer.vb">
+      <DependentUpon>StudentLogin.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminLogin.Designer.vb">
+      <DependentUpon>AdminLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdminLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="StudentView.Designer.vb">
+      <DependentUpon>StudentView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="StudentView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TransferedVariables.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AddData.resx">
+      <DependentUpon>AddData.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminLogin.resx">
+      <DependentUpon>AdminLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin View.resx">
+      <DependentUpon>Admin View.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PopUP.resx">
+      <DependentUpon>PopUP.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgressClass.resx">
+      <DependentUpon>ProgressClass.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgressCourse.resx">
+      <DependentUpon>ProgressCourse.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgressStudent.resx">
+      <DependentUpon>ProgressStudent.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportClass.resx">
+      <DependentUpon>ReportClass.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportCourse.resx">
+      <DependentUpon>ReportCourse.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentLogin.resx">
+      <DependentUpon>StudentLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentView.resx">
+      <DependentUpon>StudentView.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Search_Dark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search-icon-png-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HomeButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="PrototypeDatabase.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="PrototypeDatabase_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>PrototypeDatabase.mdf</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

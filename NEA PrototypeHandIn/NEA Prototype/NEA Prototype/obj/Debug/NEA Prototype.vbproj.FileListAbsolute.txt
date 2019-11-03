@@ -1,0 +1,50 @@
+i:\documents\visual studio 2013\Projects\NEA Prototype\NEA Prototype\bin\Debug\NEA Prototype.exe.config
+I:\Documents\Visual Studio 2013\Projects\NEA Prototype\NEA Prototype\bin\Debug\NEA Prototype.exe
+I:\Documents\Visual Studio 2013\Projects\NEA Prototype\NEA Prototype\bin\Debug\NEA Prototype.pdb
+I:\Documents\Visual Studio 2013\Projects\NEA Prototype\NEA Prototype\bin\Debug\NEA Prototype.xml
+I:\Documents\Visual Studio 2013\Projects\NEA Prototype\NEA Prototype\obj\Debug\NEA_Prototype.AdminLogin.resources
+I:\Documents\Visual Studio 2013\Projects\NEA Prototype\NEA Prototype\obj\Debug\NEA_Prototype.StudentLogin.resources
+I:\Documents\Visual Studio 2013\Projects\NEA Prototype\NEA Prototype\obj\Debug\NEA_Prototype.Resources.resources
+I:\Documents\Visual Studio 2013\Projects\NEA Prototype\NEA Prototype\obj\Debug\NEA_Prototype.StudentView.resources
+I:\Documents\Visual Studio 2013\Projects\NEA Prototype\NEA Prototype\obj\Debug\NEA Prototype.vbproj.GenerateResource.Cache
+I:\Documents\Visual Studio 2013\Projects\NEA Prototype\NEA Prototype\obj\Debug\NEA Prototype.exe
+I:\Documents\Visual Studio 2013\Projects\NEA Prototype\NEA Prototype\obj\Debug\NEA Prototype.xml
+I:\Documents\Visual Studio 2013\Projects\NEA Prototype\NEA Prototype\obj\Debug\NEA Prototype.pdb
+I:\Documents\Visual Studio 2013\Projects\NEA Prototype\NEA Prototype\obj\Debug\NEA_Prototype.AdminView1.resources
+I:\Documents\Visual Studio 2013\Projects\NEA Prototype\NEA Prototype\obj\Debug\NEA_Prototype.ProgressCourse.resources
+I:\Documents\Visual Studio 2013\Projects\NEA Prototype\NEA Prototype\obj\Debug\NEA_Prototype.ProgressStudent.resources
+I:\Documents\Visual Studio 2013\Projects\NEA Prototype\NEA Prototype\obj\Debug\NEA_Prototype.ReportClass.resources
+I:\Documents\Visual Studio 2013\Projects\NEA Prototype\NEA Prototype\obj\Debug\NEA_Prototype.ReportCourse.resources
+I:\Documents\Visual Studio 2013\Projects\NEA Prototype\NEA Prototype\obj\Debug\NEA Prototype.vbprojResolveAssemblyReference.cache
+I:\Documents\Visual Studio 2013\Projects\NEA Prototype\NEA Prototype\obj\Debug\NEA_Prototype.ProgressClass.resources
+I:\Documents\Visual Studio 2013\Projects\NEA Prototype\NEA Prototype\bin\Debug\PrototypeDatabase.mdf
+I:\Documents\Visual Studio 2013\Projects\NEA Prototype\NEA Prototype\bin\Debug\PrototypeDatabase_log.ldf
+I:\Documents\Visual Studio 2013\Projects\NEA Prototype\NEA Prototype\obj\Debug\NEA_Prototype.AddData.resources
+M:\A Levels\Public\NEW ICT & Computing\A2 Computing\NEA 16-17\NEA_Jason\NEA PrototypeOld\NEA Prototype\bin\Debug\NEA Prototype.exe.config
+M:\A Levels\Public\NEW ICT & Computing\A2 Computing\NEA 16-17\NEA_Jason\NEA PrototypeOld\NEA Prototype\obj\Debug\NEA Prototype.exe
+M:\A Levels\Public\NEW ICT & Computing\A2 Computing\NEA 16-17\NEA_Jason\NEA PrototypeOld\NEA Prototype\obj\Debug\NEA Prototype.xml
+M:\A Levels\Public\NEW ICT & Computing\A2 Computing\NEA 16-17\NEA_Jason\NEA PrototypeOld\NEA Prototype\obj\Debug\NEA Prototype.pdb
+I:\Documents\Visual Studio 2013\Projects\NEA Prototype\NEA Prototype\obj\Debug\NEA_Prototype.PopUP.resources
+I:\Documents\Visual Studio 2013\Projects\NEA PrototypeHandIn\NEA Prototype\NEA Prototype\bin\Debug\NEA Prototype.exe.config
+I:\Documents\Visual Studio 2013\Projects\NEA PrototypeHandIn\NEA Prototype\NEA Prototype\obj\Debug\NEA Prototype.exe
+I:\Documents\Visual Studio 2013\Projects\NEA PrototypeHandIn\NEA Prototype\NEA Prototype\obj\Debug\NEA Prototype.xml
+I:\Documents\Visual Studio 2013\Projects\NEA PrototypeHandIn\NEA Prototype\NEA Prototype\obj\Debug\NEA Prototype.pdb
+I:\Documents\Visual Studio 2013\Projects\NEA PrototypeHandIn\NEA Prototype\NEA Prototype\bin\Debug\PrototypeDatabase.mdf
+I:\Documents\Visual Studio 2013\Projects\NEA PrototypeHandIn\NEA Prototype\NEA Prototype\bin\Debug\PrototypeDatabase_log.ldf
+I:\Documents\Visual Studio 2013\Projects\NEA PrototypeHandIn\NEA Prototype\NEA Prototype\bin\Debug\NEA Prototype.exe
+I:\Documents\Visual Studio 2013\Projects\NEA PrototypeHandIn\NEA Prototype\NEA Prototype\bin\Debug\NEA Prototype.pdb
+I:\Documents\Visual Studio 2013\Projects\NEA PrototypeHandIn\NEA Prototype\NEA Prototype\bin\Debug\NEA Prototype.xml
+I:\Documents\Visual Studio 2013\Projects\NEA PrototypeHandIn\NEA Prototype\NEA Prototype\obj\Debug\NEA Prototype.vbprojResolveAssemblyReference.cache
+I:\Documents\Visual Studio 2013\Projects\NEA PrototypeHandIn\NEA Prototype\NEA Prototype\obj\Debug\NEA_Prototype.AddData.resources
+I:\Documents\Visual Studio 2013\Projects\NEA PrototypeHandIn\NEA Prototype\NEA Prototype\obj\Debug\NEA_Prototype.AdminLogin.resources
+I:\Documents\Visual Studio 2013\Projects\NEA PrototypeHandIn\NEA Prototype\NEA Prototype\obj\Debug\NEA_Prototype.AdminView1.resources
+I:\Documents\Visual Studio 2013\Projects\NEA PrototypeHandIn\NEA Prototype\NEA Prototype\obj\Debug\NEA_Prototype.PopUP.resources
+I:\Documents\Visual Studio 2013\Projects\NEA PrototypeHandIn\NEA Prototype\NEA Prototype\obj\Debug\NEA_Prototype.ProgressClass.resources
+I:\Documents\Visual Studio 2013\Projects\NEA PrototypeHandIn\NEA Prototype\NEA Prototype\obj\Debug\NEA_Prototype.ProgressCourse.resources
+I:\Documents\Visual Studio 2013\Projects\NEA PrototypeHandIn\NEA Prototype\NEA Prototype\obj\Debug\NEA_Prototype.ProgressStudent.resources
+I:\Documents\Visual Studio 2013\Projects\NEA PrototypeHandIn\NEA Prototype\NEA Prototype\obj\Debug\NEA_Prototype.ReportClass.resources
+I:\Documents\Visual Studio 2013\Projects\NEA PrototypeHandIn\NEA Prototype\NEA Prototype\obj\Debug\NEA_Prototype.ReportCourse.resources
+I:\Documents\Visual Studio 2013\Projects\NEA PrototypeHandIn\NEA Prototype\NEA Prototype\obj\Debug\NEA_Prototype.StudentLogin.resources
+I:\Documents\Visual Studio 2013\Projects\NEA PrototypeHandIn\NEA Prototype\NEA Prototype\obj\Debug\NEA_Prototype.Resources.resources
+I:\Documents\Visual Studio 2013\Projects\NEA PrototypeHandIn\NEA Prototype\NEA Prototype\obj\Debug\NEA_Prototype.StudentView.resources
+I:\Documents\Visual Studio 2013\Projects\NEA PrototypeHandIn\NEA Prototype\NEA Prototype\obj\Debug\NEA Prototype.vbproj.GenerateResource.Cache
